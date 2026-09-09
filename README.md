@@ -2,6 +2,10 @@
 
 A quantitative analysis of the Sample Superstore dataset.
 
+## Presentation
+
+Slides for this project: https://docs.google.com/presentation/d/1BMgQ1j4paQfHuoabMJ1M-mrXQxT5qyrw/edit?usp=sharing&ouid=115766387826758885746&rtpof=true&sd=true
+
 ## Question
 
 Which parts of a retail business make money, how do sales trend
@@ -45,15 +49,15 @@ killer.
 ## Project structure
 
     superstore-profit-lens/
-    |-- data/                  (created by get_data.py)
+    |-- data/ (created by get_data.py).
     |   `-- superstore.csv
-    |-- charts/                (created by trend.py, correlation.py, compare.py)
-    |-- get_data.py            downloads the dataset
-    |-- explore.py             headline totals and margins
-    |-- trend.py               sales trend over time
-    |-- correlation.py         discount vs. profit
-    |-- compare.py             region and category comparison
-    |-- app.py                 interactive Streamlit dashboard
+    |-- charts/(created by trend.py, correlation.py, compare.py).
+    |-- get_data.py (downloads the dataset).
+    |-- explore.py  (headline totals and margins).
+    |-- trend.py (sales trend over time)
+    |-- correlation.py (discount vs. profit)
+    |-- compare.py (region and category comparison)
+    |-- app.py (interactive Streamlit dashboard)
     |-- requirements.txt
     `-- README.md
 
