@@ -57,4 +57,3 @@ with trend_tab:
 with discount_tab:
     st.scatter_chart(filtered, x="Discount", y="Profit", color="Category")
 
-wit
